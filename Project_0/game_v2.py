@@ -23,8 +23,8 @@ def random_predict(number:int=1) -> int:
             break # выход из цикла, если угадали
     return(count)
 
-def binary_search(number: int = 1) -> int:
-    """Бинарный поиск числа в упорядоченном массиве от 1 до 100.
+def binary_predict(number: int = 1) -> int:
+    """Бинарный поиск числа в интервале от 1 до 100.
 
     Args:
         number (int, optional): Загаданное число. Defaults to 1.
@@ -44,7 +44,7 @@ def binary_search(number: int = 1) -> int:
     count = 0
     while (low <= high):
         count += 1
-        mid =   math.floor((low + high)/2) #середина интервала поиска
+        mid = math.floor((low + high)/2) #середина интервала поиска
         midVal = arr[mid] #значение элемента в середине интервала поиска
 
         if midVal < number:
@@ -57,24 +57,24 @@ def binary_search(number: int = 1) -> int:
     return count;  
 
 
-def score_game(random_predict) -> int:
-    """За какое количество попыток в среднем из 1000 подходов угадывает наш алгоритм
+def score_game(predict_func) -> int:
+    """За какое количество попыток в среднем из 1000 подходов угадывает алгоритм
 
     Args:
-        random_predict ([type]): функция угадывания
+        predict_func ([type]): функция угадывания
 
     Returns:
         int: среднее количество попыток
     """
 
     count_ls = [] # список для сохранения количества попыток
-    #np.random.seed(1) # фиксируем сид для воспроизводимости
+    np.random.seed(1) # фиксируем сид для воспроизводимости
     random_array = np.random.randint(1, 101, size=(1000)) # загадали список чисел
 
     for number in random_array:
-        count_ls.append(random_predict(number))
+        count_ls.append(predict_func(number))
 
-    score = int(np.mean(count_ls)) # находим среднее количество попыток
+    score = math.floor(np.mean(count_ls)) # находим среднее количество попыток
 
     print(f'Ваш алгоритм угадывает число в среднем за: {score} попыток')
     return(score)
@@ -84,4 +84,5 @@ def score_game(random_predict) -> int:
 #print(random_predict(25))
 
 if __name__ == '__main__':
-    score_game(random_predict)
+    #score_game(random_predict)
+    score_game(binary_predict)
