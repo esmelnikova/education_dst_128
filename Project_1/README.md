@@ -1,14 +1,10 @@
-# Проект 0. Угадай число
-
+# Проект 1. Анализ резюме HeadHunter
 ## Оглавление
 
 [1. Описание проекта](https://github.com/esmelnikova/education_dst_128/tree/main/Project_1/README.md#Описание-проекта)  
-[2. Какой кейс решаем](https://github.com/esmelnikova/education_dst_128/tree/main/Project_1/README.md#Какой-кейс-решаем) 
-[3. Этапы работы над проектом](https://github.com/esmelnikova/education_dst_128/tree/main/Project_1/README.md#Этапы-работы-над-проектом)   
-[4. Условия соревнования](https://github.com/esmelnikova/education_dst_128/tree/main/Project_1/README.md#Условия-соревнования)  
-[5. Требования к ноутбуку](https://github.com/esmelnikova/education_dst_128/tree/main/Project_1/README.md#Требования-к-ноутбуку)  
-[6. Что практикуем](https://github.com/esmelnikova/education_dst_128/tree/main/Project_1/README.md#Что-практикуем) 
-[7. Результаты](https://github.com/esmelnikova/education_dst_128/tree/main/Project_1/README.md#Результаты)    
+[2. Какой кейс решаем](https://github.com/esmelnikova/education_dst_128/tree/main/Project_1/README.md#Какой-кейс-решаем)  
+[3. Этапы работы над проектом](https://github.com/esmelnikova/education_dst_128/tree/main/Project_1/README.md#Этапы-работы-над-проектом)  
+[4. Результаты](https://github.com/esmelnikova/education_dst_128/tree/main/Project_1/README.md#Результаты)    
 
 
 
@@ -36,14 +32,14 @@
 
 **Условия соревнования:**
 
-1. Файл с исходными данными вы можете скачать здесь(https://drive.google.com/file/d/1Kb78mAWYKcYlellTGhIjPI-bCcKbGuTn/view?usp=sharing)
+1. Файл с исходными данными вы можете скачать [здесь](https://drive.google.com/file/d/1Kb78mAWYKcYlellTGhIjPI-bCcKbGuTn/view?usp=sharing)
 2. Каждая часть состоит из блока практических заданий, которые необходимо выполнить в jupyter-ноутбуке.
 3. Ноутбук необходимо оформить на основе предоставленного шаблона и требований.
 4. Отправить свой код ментору для code-ревью.
 
 :arrow_up:[к оглавлению](https://github.com/esmelnikova/education_dst_128/tree/main/Project_1/README.md#Оглавление)
 
-***Требования к оформлению ноутбука:**
+**Требования к оформлению ноутбука:**
 
 1. Решение оформляется только в Jupyter Notebook.
 2. Решение оформляется в соответствии с ноутбуком-шаблоном.
@@ -73,7 +69,7 @@
 ### Результаты:  
 
 Данные резюме проанализированы, преобразованы и очищены для выполнения следующих этапов прогнозирования уровня ЗП соискателей.
-Итоговый ноутбук с решениями и выводами размещен здесь(https://github.com/esmelnikova/education_dst_128/tree/main/Project_1/notebooks/Project-1. Анализ резюме HeadHunter.ipynb)
+Итоговый ноутбук с решениями и выводами размещен [здесь](https://github.com/esmelnikova/education_dst_128/blob/main/Project_1/notebooks/Project-1.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20HeadHunter.ipynb)
 
 :arrow_up:[к оглавлению](https://github.com/esmelnikova/education_dst_128/tree/main/Project_1/README.md#Оглавление)
 
