@@ -1,4 +1,4 @@
-# Проект 1. Анализ резюме HeadHunter
+# Проект 2. Анализ вакансий HeadHunter
 ## Оглавление
 
 [1. Описание проекта](https://github.com/esmelnikova/education_dst_128/tree/main/Project_2/README.md#Описание-проекта)  
