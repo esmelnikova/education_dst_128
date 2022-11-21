@@ -64,7 +64,7 @@
 ### Результаты:  
 
 Данные с сайта hh.ru о вакансиях, работодателях изучены, проанализированы, сделаны предварительные выводы, даны рекомендации для дальнейшего анализа.
-Итоговый ноутбук с решениями и выводами размещен [здесь](https://github.com/esmelnikova/education_dst_128/blob/main/Project_1/notebooks/Project-1.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20HeadHunter.ipynb)
+Итоговый ноутбук с решениями и выводами размещен [здесь](https://github.com/esmelnikova/education_dst_128/blob/main/Project_2/notebooks/Project_2_%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20HeadHunter.ipynb)
 
 :arrow_up:[к оглавлению](https://github.com/esmelnikova/education_dst_128/tree/main/Project_1/README.md#Оглавление)
 
